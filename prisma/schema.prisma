@@ -17,5 +17,5 @@ model Todo {
   id String  @id @default(uuid())
   name String 
   content String
-  isDone Boolean
+  isDone Boolean @default(false) 
 }
